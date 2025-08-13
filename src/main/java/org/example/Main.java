@@ -81,6 +81,18 @@ public class Main {
         String greeting = "Hello World";
         System.out.println(greeting);
 
+
+        // real life example in java
+        // Create variables of different data types
+        int items =  50;
+        float costPerItem = 9.99f;
+        double totalCost = items * costPerItem;
+        char currencySymbol = '$';
+
+//        print variables
+        System.out.println("Number of items: " + items);
+        System.out.println("Cost per item: " + currencySymbol + costPerItem);
+        System.out.println("Total cost: " + currencySymbol + totalCost);
     }
 
 }
