@@ -57,42 +57,50 @@ public class Main {
 //}
 
 
-    public static void main(String[] args) {
-//        System.out.println(Condition.ageValidation(20));
-//        String txt = "We are the so-called \"Vikings\" from the north.";
-//        The Math.max(x,y) method can be used to find the highest value of x and y:
-//        Math.max(5, 10);
-//        System.out.println(txt);
-//        Math.random();
-        System.out.println("Random number: " + Math.random());
-        boolean isJavaFun = true;
-        boolean isFishTasty = false;
-        System.out.println(isJavaFun);     // Outputs true
-        System.out.println(isFishTasty);   // Outputs false
+//    public static void main(String[] args) {
+////        System.out.println(Condition.ageValidation(20));
+////        String txt = "We are the so-called \"Vikings\" from the north.";
+////        The Math.max(x,y) method can be used to find the highest value of x and y:
+////        Math.max(5, 10);
+////        System.out.println(txt);
+////        Math.random();
+//       /* System.out.println("Random number: " + Math.random());
+//        boolean isJavaFun = true;
+//        boolean isFishTasty = false;
+//        System.out.println(isJavaFun);     // Outputs true
+//        System.out.println(isFishTasty);   // Outputs false
+//
+//        char myGrade = 'B';
+//        System.out.println(myGrade);
+//
+//        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
+//        System.out.println(myVar1);
+//        System.out.println(myVar2);
+//        System.out.println(myVar3);*/
+//
+//        String greeting = "Hello World";
+//        System.out.println(greeting);
+//
+//
+//        // real life example in java
+//        // Create variables of different data types
+//        int items =  50;
+//        float costPerItem = 9.99f;
+//        double totalCost = items * costPerItem;
+//        char currencySymbol = '$';
+//
+////        print variables
+//        System.out.println("Number of items: " + items);
+//        System.out.println("Cost per item: " + currencySymbol + costPerItem);
+//        System.out.println("Total cost: " + currencySymbol + totalCost);
+//    }
 
-        char myGrade = 'B';
-        System.out.println(myGrade);
 
-        char myVar1 = 65, myVar2 = 66, myVar3 = 67;
-        System.out.println(myVar1);
-        System.out.println(myVar2);
-        System.out.println(myVar3);*/
-
-        String greeting = "Hello World";
-        System.out.println(greeting);
-
-
-        // real life example in java
-        // Create variables of different data types
-        int items =  50;
-        float costPerItem = 9.99f;
-        double totalCost = items * costPerItem;
-        char currencySymbol = '$';
-
-//        print variables
-        System.out.println("Number of items: " + items);
-        System.out.println("Cost per item: " + currencySymbol + costPerItem);
-        System.out.println("Total cost: " + currencySymbol + totalCost);
-    }
-
+public static void main(String[] args) {
+    //non primitive data types
+    int myInt = 9;
+    double myDouble = myInt; // here we are converting int to double
+    System.out.println("Integer value: " + myInt);
+    System.out.println("Double value: " + myDouble);
+}
 }
