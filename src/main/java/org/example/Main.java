@@ -1,0 +1,73 @@
+package org.example;
+
+import java.util.Scanner;
+
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+//    public static void main(String[] args) {
+////        First ft = new First();
+////        System.out.println("ft.addTwo(a:56, b:98");
+////        System.out.println(First.force( 2,   9.8));
+//
+//        Scanner scan = new Scanner(System.in);
+//        System.out.println("enter radius");
+////        int r = can.nexInt();
+//
+////        System.out.println(First.areaOfCircle(r));
+//    }
+//
+//    public static void main(String[] args) {
+//        /*System.out.print("Hello World");
+//        System.out.print("Hello World!");
+//        System.out.println("I am learning Java.");
+//        System.out.println(3);
+//        System.out.println(358);
+//        System.out.println(50000);
+//        System.out.println(3 + 3);
+//    }*/
+//String studentName = "John Doe";
+//int studentID = 15;
+//int studentAge = 23;
+//float studentFee = 75.25f;
+//char studentGrade = 'B';
+//
+//// Print variables
+//System.out.println("Student name: " + studentName);
+//System.out.println("Student id: " + studentID);
+//System.out.println("Student age: " + studentAge);
+//System.out.println("Student fee: " + studentFee);
+//System.out.println("Student grade: " + studentGrade);
+//}
+
+//public static void main(String[] args) {
+//    Scanner sc = new Scanner(System.in);
+//
+//    System.out.print("Enter side a: ");
+//    double a = sc.nextDouble();
+//    System.out.print("Enter side b: ");
+//    double b = sc.nextDouble();
+//    System.out.print("Enter side c: ");
+//    double c = sc.nextDouble();
+//
+//    double s = (a + b + c) / 2;
+//    double area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+//
+//    System.out.println("Area = " + area);
+//}
+
+
+    public static void main(String[] args) {
+//        System.out.println(Condition.ageValidation(20));
+//        String txt = "We are the so-called \"Vikings\" from the north.";
+//        The Math.max(x,y) method can be used to find the highest value of x and y:
+//        Math.max(5, 10);
+//        System.out.println(txt);
+//        Math.random();
+        System.out.println("Random number: " + Math.random());
+
+
+
+    }
+
+}
