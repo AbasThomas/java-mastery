@@ -70,7 +70,8 @@ public class Main {
         System.out.println(isJavaFun);     // Outputs true
         System.out.println(isFishTasty);   // Outputs false
 
-
+        char myGrade = 'B';
+        System.out.println(myGrade);
     }
 
 }
