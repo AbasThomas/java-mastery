@@ -113,5 +113,15 @@ public static void main(String[] args) {
 
     System.out.println("Double value: " + myDouble2);
     System.out.println("Integer value: " + myInt2);
+
+    // real life example
+    // Set the maximum possible score in the game to 500
+    int maxScore = 500;
+    // Set the current score to 250
+    int currentScore = 250;
+    // Calculate the percentage of the current score relative to the maximum score
+    double percentageScore = ((double) currentScore / maxScore) * 100;
+    // Print the percentage score
+    System.out.println("Percentage Score: " + percentageScore + "%");
 }
 }
