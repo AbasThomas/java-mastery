@@ -98,9 +98,20 @@ public class Main {
 
 public static void main(String[] args) {
     //non primitive data types
+
+    //widening casting (automatically) - converting a smaller type to a larger type size
+    //byte -> short -> char -> int -> long -> float -> double
     int myInt = 9;
     double myDouble = myInt; // here we are converting int to double
     System.out.println("Integer value: " + myInt);
     System.out.println("Double value: " + myDouble);
+
+    //narrowing casting (manually) - converting a larger type to a smaller size type
+    //double -> float -> long -> int -> char -> short -> byte
+    double myDouble2 = 9.78d;
+    int myInt2 = (int) myDouble2; // here we are converting double
+
+    System.out.println("Double value: " + myDouble2);
+    System.out.println("Integer value: " + myInt2);
 }
 }
