@@ -123,5 +123,10 @@ public static void main(String[] args) {
     double percentageScore = ((double) currentScore / maxScore) * 100;
     // Print the percentage score
     System.out.println("Percentage Score: " + percentageScore + "%");
+
+    //arithmetic operations
+    /*int x = 10;
+    x += 5; // x = x + 5
+    System.out.println("x after += 5: " + x); // Outputs 15*/
 }
 }
