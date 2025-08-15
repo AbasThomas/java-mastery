@@ -128,6 +128,16 @@ public static void main(String[] args) {
     /*int x = 10;
     x += 5; // x = x + 5
     System.out.println("x after += 5: " + x); // Outputs 15*/
-}
-}
+
+    int x = 5;
+    int y = 2;
+    System.out.println(x > y);
     
+//    String greeting = "Hello, World!";
+
+    String txt = "abcdefghijklmnopqrstuvwxyz";
+    System.out.println("The length of the txt string is: " + txt.length());
+    System.out.println(txt.toUpperCase());
+    System.out.println(txt.indexOf(b));
+}
+}
