@@ -96,48 +96,80 @@ public class Main {
 //    }
 
 
-public static void main(String[] args) {
-    //non primitive data types
+//public static void main(String[] args) {
+//    //non primitive data types
+//
+//    //widening casting (automatically) - converting a smaller type to a larger type size
+//    //byte -> short -> char -> int -> long -> float -> double
+//    int myInt = 9;
+//    double myDouble = myInt; // here we are converting int to double
+//    System.out.println("Integer value: " + myInt);
+//    System.out.println("Double value: " + myDouble);
+//
+//    //narrowing casting (manually) - converting a larger type to a smaller size type
+//    //double -> float -> long -> int -> char -> short -> byte
+//    double myDouble2 = 9.78d;
+//    int myInt2 = (int) myDouble2; // here we are converting double
+//
+//    System.out.println("Double value: " + myDouble2);
+//    System.out.println("Integer value: " + myInt2);
+//
+//    // real life example
+//    // Set the maximum possible score in the game to 500
+//    int maxScore = 500;
+//    // Set the current score to 250
+//    int currentScore = 250;
+//    // Calculate the percentage of the current score relative to the maximum score
+//    double percentageScore = ((double) currentScore / maxScore) * 100;
+//    // Print the percentage score
+//    System.out.println("Percentage Score: " + percentageScore + "%");
+//
+//    //arithmetic operations
+//    /*int x = 10;
+//    x += 5; // x = x + 5
+//    System.out.println("x after += 5: " + x); // Outputs 15*/
+//
+//    int x = 5;
+//    int y = 2;
+//    System.out.println(x > y);
+//
+////    String greeting = "Hello, World!";
+//
+//    String txt = "abcdefghijklmnopqrstuvwxyz";
+//    System.out.println("The length of the txt string is: " + txt.length());
+//    System.out.println(txt.toUpperCase());
+//    System.out.println(txt.indexOf(b));
+//
+//
+//
+//}
 
-    //widening casting (automatically) - converting a smaller type to a larger type size
-    //byte -> short -> char -> int -> long -> float -> double
-    int myInt = 9;
-    double myDouble = myInt; // here we are converting int to double
-    System.out.println("Integer value: " + myInt);
-    System.out.println("Double value: " + myDouble);
+    public static void main(String[] args) {
+        int day = 4;
+        switch (day){
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case  3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            case 6:
+                System.out.println("Saturday");
+                break;
+            case 7:
+                System.out.println("Sunday");
+                break;
 
-    //narrowing casting (manually) - converting a larger type to a smaller size type
-    //double -> float -> long -> int -> char -> short -> byte
-    double myDouble2 = 9.78d;
-    int myInt2 = (int) myDouble2; // here we are converting double
+        }
 
-    System.out.println("Double value: " + myDouble2);
-    System.out.println("Integer value: " + myInt2);
-
-    // real life example
-    // Set the maximum possible score in the game to 500
-    int maxScore = 500;
-    // Set the current score to 250
-    int currentScore = 250;
-    // Calculate the percentage of the current score relative to the maximum score
-    double percentageScore = ((double) currentScore / maxScore) * 100;
-    // Print the percentage score
-    System.out.println("Percentage Score: " + percentageScore + "%");
-
-    //arithmetic operations
-    /*int x = 10;
-    x += 5; // x = x + 5
-    System.out.println("x after += 5: " + x); // Outputs 15*/
-
-    int x = 5;
-    int y = 2;
-    System.out.println(x > y);
-    
-//    String greeting = "Hello, World!";
-
-    String txt = "abcdefghijklmnopqrstuvwxyz";
-    System.out.println("The length of the txt string is: " + txt.length());
-    System.out.println(txt.toUpperCase());
-    System.out.println(txt.indexOf(b));
-}
+    }
 }
