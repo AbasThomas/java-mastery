@@ -144,7 +144,7 @@ public class Main {
 //
 //}
 
-    public static void main(String[] args) {
+ /*   public static void main(String[] args) {
         int day = 4;
         switch (day){
             case 1:
@@ -172,4 +172,45 @@ public class Main {
         }
 
     }
+
+}*/
+//public static void main (String[] args){
+////    if else statement
+//    /*int i = 0;
+//    while (i < 5){
+//        System.out.println(i);
+//        i++;
+//    }*/
+//
+//    //countdown example
+//     /*int countdown = 3;
+//     while (countdown> 0) {
+//         System.out.println(countdown);
+//         countdown --;
+//
+//     }
+//     System.out.println("Happy new year");*/
+//
+//    //do while loop
+//    int i = 10;
+//    do {
+//        System.out.println(i);
+//        i++;
+//    }
+//    while (i < 5);
+//}
+//}
+
+//    Real-Life Examples
+
+//simple countdown timer
+
+public static void main(String[] args){
+    int countdown = 10;
+    while (countdown > 0 ) {
+        System.out.println(countdown);
+        countdown--;
+    }
+    System.out.println("Welcome friends");
+}
 }
