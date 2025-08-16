@@ -206,11 +206,28 @@ public class Main {
 //simple countdown timer
 
 public static void main(String[] args){
-    int countdown = 10;
+  /*  int countdown = 10;
     while (countdown > 0 ) {
         System.out.println(countdown);
         countdown--;
     }
     System.out.println("Welcome friends");
-}
+}*/
+
+//    Yatzy game
+   /* int dice = 6;
+    while (dice <= 6) {
+        if (dice < 6){
+            System.out.println("No yatzy my g");
+        } else {
+            System.out.println("You got it bruhh");
+        }
+        dice = dice + 1;
+        }
+    }*/
+//              Java For Loop
+
+    for
+
+
 }
