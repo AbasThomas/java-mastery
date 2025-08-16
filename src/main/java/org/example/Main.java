@@ -227,7 +227,30 @@ public static void main(String[] args){
     }*/
 //              Java For Loop
 
-    for
+    /*for(int i = 0; i <=20 ; i = i + 2 ){
+        System.out.println(i);
+    }*/
+    //countdown example
+    /*for(int i = 1; i > 0 ;  i--){
+        System.out.println(i);
+    }*/
 
+//    nested loops
+    /*for(int i = 1; i <= 2 ; i++){
+        System.out.println("Outer loop :" + i);
+
+        //inner loop
+        for (int j =1; j<=3; j++){
+            System.out.println("Inner loop :" + j);
+        }
+    }*/
+
+    for (int i = 1; i <= 3; i++ ){
+        for (int j = 1; j  <= 3; j++){
+            System.out.print(i * j + " ");
+        }
+        System.out.println();
+    }
+}
 
 }
