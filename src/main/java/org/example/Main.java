@@ -205,7 +205,7 @@ public class Main {
 
 //simple countdown timer
 
-public static void main(String[] args){
+//public static void main(String[] args){
   /*  int countdown = 10;
     while (countdown > 0 ) {
         System.out.println(countdown);
@@ -291,9 +291,30 @@ public static void main(String[] args){
 //        System.out.println(i);
 //        i++;
 //    }
-}
+
+    // Java Arrays
+//    String[] cars = {"Volvo", "BMW", "Ford", "Mazda"}; //array of strings
+//    int[] myNum = {10, 20, 30, 40}; // array of numbers
+
+    // Accessing array elements
 
 
+
+
+//}
+    public static void main(String[] args){
+        String [] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+        System.out.println((cars[0]));
+          //Change an array element
+        cars[0] = "Opel";
+//        System.out.println(cars[0]);
+//        array length
+//        System.out.println(cars.length);
+        //Looping through an array
+        for (int i =0; i < cars.length; i++ ){
+            System.out.println(cars[i]);
+        }
+    }
 
 
 
