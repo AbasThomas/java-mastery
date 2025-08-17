@@ -314,6 +314,29 @@ public class Main {
         for (int i =0; i < cars.length; i++ ){
             System.out.println(cars[i]);
         }
+
+
+//        looping for-each
+       /* for (type variable : arrayname) {
+            ......
+        }*/
+
+        for (String i : cars){
+            System.out.println(i);
+        }
+
+        // An array storing different ages
+
+        int ages[] = {20, 22, 18, 35, 48, 26 };
+
+        float avg, sum = 0;
+
+        //get the length of the array
+
+        int length = ages.length;
+
+
+
     }
 
 
