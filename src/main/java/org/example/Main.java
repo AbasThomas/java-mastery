@@ -374,9 +374,68 @@ public class Main {
 //    }
 //
 //}
-    public static void main(String[] args){
 
-        Java methods
+//        Java methods
+//        A method is a block of code which only runs when it is called.
+
+//    creating a method
+//    static void myMethod(String fname, int age){
+//        System.out.println("hey its me " + fname + " i am " + age);
+//    }
+//    public static void main(String[] args){
+//        myMethod("Tom",12);
+//        myMethod("Jenny",14);
+//        myMethod("Chris", 17);
+//
+////        Java Method Parameters
+//    }
+//    static void checAge(int age){
+//        //if age is less than 18 print acces denied
+//        if (age < 18){
+//            System.out.println("access denied grow up mate");
+//        }
+//        else {
+//            System.out.println("Access granted go in ");
+//        }
+//    }
+    static int myMethod(int x, int y){
+        return x + y;
+    }
+//    public static void main(String[] args){
+////        checAge(20);
+////     System.out.println(myMethod(5, 4));
+////        int z = myMethod(5,3);
+////        System.out.println(z);
+//
+////
+//
+//    }
+
+/*static  int plusMethodInt(int x, int y){
+    return x +y ;
+}
+static  double plusMethodDouble(double x, double y){
+        return x +y ;
+}
+    public static void main(String[] args){
+        int myNum1 = plusMethodInt(8, 5);
+        double myNum2 = plusMethodDouble(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2 );
+    }*/
+//    overload
+static int plusMethod(int x, int y) {
+    return x + y;
+}
+
+    static double plusMethod(double x, double y) {
+        return x + y;
     }
 
+    public static void main(String[] args) {
+        int myNum1 = plusMethod(8, 5);
+        double myNum2 = plusMethod(4.3, 6.26);
+        System.out.println("int: " + myNum1);
+        System.out.println("double: " + myNum2);
+    }
 }
