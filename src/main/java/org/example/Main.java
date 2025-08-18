@@ -349,14 +349,34 @@ public class Main {
 //        System.out.println("thhe average age is: " + avg);
 //    }
 
-public static void main (String[] args) {
-    //Multidimensional Arrays
-    int[][] myNumbers= {{1,2,3,4},{5,6,7} };
-//    System.out.println(myNumbers[1][2]);
-//    changing the element of a mulitdimensional arrray
-    myNumbers[1][2] =  9;
-    System.out.println(myNumbers[1][2]);
-}
+//public static void main (String[] args) {
+//    //Multidimensional Arrays
+//    int[][] myNumbers= {{1,2,3,4},{5,6,7} };
+////    System.out.println(myNumbers[1][2]);
+////    changing the element of a multidimensional arrray
+////    myNumbers[1][2] =  9;
+////    System.out.println(myNumbers[1][2]);
+//
+////    Loop Through a Multi-Dimensional Array
+//
+////    for (int i = 0; i< myNumbers.length; ++i){
+////        for (int j = 0; j< myNumbers[i].length; ++j){
+////            System.out.println(myNumbers[i][j]);
+////        }
+////    }
+//
+////    orr
+//
+//    for (int[] row : myNumbers){
+//        for(int i : row){
+//            System.out.println(i);
+//        }
+//    }
+//
+//}
+    public static void main(String[] args){
 
+        Java methods
+    }
 
 }
