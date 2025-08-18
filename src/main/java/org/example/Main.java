@@ -302,43 +302,61 @@ public class Main {
 
 
 //}
-    public static void main(String[] args){
-        String [] cars = {"Volvo", "BMW", "Ford", "Mazda"};
-        System.out.println((cars[0]));
-          //Change an array element
-        cars[0] = "Opel";
-//        System.out.println(cars[0]);
-//        array length
-//        System.out.println(cars.length);
-        //Looping through an array
-        for (int i =0; i < cars.length; i++ ){
-            System.out.println(cars[i]);
-        }
+//    public static void main(String[] args){
+//        String [] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+//        System.out.println((cars[0]));
+//          //Change an array element
+//        cars[0] = "Opel";
+////        System.out.println(cars[0]);
+////        array length
+////        System.out.println(cars.length);
+//        //Looping through an array
+//        for (int i =0; i < cars.length; i++ ){
+//            System.out.println(cars[i]);
+//        }
+//
+//
+////        looping for-each
+//       /* for (type variable : arrayname) {
+//            ......
+//        }*/
+//
+//        for (String i : cars){
+//            System.out.println(i);
+//        }
+//
+//        // An array storing different ages
+//
+//        int ages[] = {20, 22, 18, 35, 48, 26 };
+//
+//        float avg, sum = 0;
+//
+//        //get the length of the array
+//
+//        int length = ages.length;
+//
+//        //  loop thr
+//        ough the elements of the array
+//
+//        for (int age :ages){
+//            sum =+ age;
+//        }
+//
+//        avg = sum /length;
+//
+//        //print the average
+//
+//        System.out.println("thhe average age is: " + avg);
+//    }
 
-
-//        looping for-each
-       /* for (type variable : arrayname) {
-            ......
-        }*/
-
-        for (String i : cars){
-            System.out.println(i);
-        }
-
-        // An array storing different ages
-
-        int ages[] = {20, 22, 18, 35, 48, 26 };
-
-        float avg, sum = 0;
-
-        //get the length of the array
-
-        int length = ages.length;
-
-
-
-    }
-
+public static void main (String[] args) {
+    //Multidimensional Arrays
+    int[][] myNumbers= {{1,2,3,4},{5,6,7} };
+//    System.out.println(myNumbers[1][2]);
+//    changing the element of a mulitdimensional arrray
+    myNumbers[1][2] =  9;
+    System.out.println(myNumbers[1][2]);
+}
 
 
 }
