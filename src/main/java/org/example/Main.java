@@ -376,7 +376,7 @@ public class Main {
 //}
 
 //        Java methods
-//        A method is a block of code which only runs when it is called.
+//        A method is a  block of code which only runs when it is called.
 
 //    creating a method
 //    static void myMethod(String fname, int age){
@@ -432,10 +432,100 @@ static int plusMethod(int x, int y) {
         return x + y;
     }
 
+//    public static void main(String[] args) {
+//        int myNum1 = plusMethod(8, 5);
+//        double myNum2 = plusMethod(4.3, 6.26);
+//        System.out.println("int: " + myNum1);
+//        System.out.println("double: " + myNum2);
+//        // String is a stream or sequence of character
+//        //
+//    }
+
     public static void main(String[] args) {
-        int myNum1 = plusMethod(8, 5);
-        double myNum2 = plusMethod(4.3, 6.26);
-        System.out.println("int: " + myNum1);
-        System.out.println("double: " + myNum2);
+//        String school_name = "Aptech Portharcourt";
+//        String str = new String("this is lovely");
+//        System.out.println(str);
+//        System.out.println(school_name);
+//        System.out.println(school_name == str); //returns false
+//        System.out.println(school_name.length());
+//        System.out.println(school_name.charAt(0));
+//        System.out.println(school_name.charAt(school_name.length()-1));
+//        String strCase = school_name.toUpperCase(); //to uppercase
+//        System.out.println(strCase);
+//          char c = school_name.charAt(2);
+//          System.out.println(c);
+
+//          int t = school_name.indexOf('t');0000......0.0.
+//          System.out.println(t);
+//          System.out.println(greet("Desi".concat("uche\nMike \t\t ade")));
+//        System.out.println("i cannot\"s do with you");
+//        System.out.println(firstLetter("chris"));
+
+       String[] allStudentName= getAllStudents("michael,Steph,Fakuade");
+       for (String all : allStudentName){
+           System.out.println(all);
+       }
+
+       //type casting
+        int price = 123456;
+        String s = String.valueOf(price);
+        System.out.println(s);
+        int i = Integer.parseInt(s);
+
+        StringBuilder sb = new StringBuilder("love is wicked");
+        sb.append("yoriyori");
+        System.out.println(sb);
+
+        System.out.println(reverseWord("good is God"));
+
+    }
+    public static String greet(String name){
+        return "Hello" + name.toUpperCase() + "!" ;
+    }
+    public static String firstLetter(String name){
+        String substring = name.substring(0,1).toUpperCase()+name.substring(1);
+        return substring;
+    }
+    public static String[] getAllStudents(String names){
+        String[] users= names.split(",");
+        return users;
+    }
+
+//    reverse words in a sentence
+
+    public static String reverseWord(String words){
+        String[] s = words.split((" "));
+        StringBuilder sb= new StringBuilder();
+
+        for (int i = s.length-1; i <  0; i--) {
+            sb.append(s[i]).append(" ");
+        }
+        return  sb.toString().trim();
+
+    }
+
+
+//    public static int uniqueCharacters (String word){
+//        //    return the length of the longest substring with all unique characters
+//        for (int i = 0; i < word.length(); i++) {
+//            String current = "";
+//            for (int j = i; j < word.length(); j++) {
+//                if (current.contains(c)){
+//                    break;
+//                }
+//                current += c;
+//                System.out.println(current);
+//
+//            }
+//        }
+//    }
+    public static String vowelCons(String word){
+        int vowelCount = 0;
+        int consonantCount = 0;
+
+        for (int i = 0; i < word.length(); i++) {
+            char c = wor
+
+        }
     }
 }
