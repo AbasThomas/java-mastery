@@ -524,7 +524,7 @@ static int plusMethod(int x, int y) {
         int consonantCount = 0;
 
         for (int i = 0; i < word.length(); i++) {
-            char c = wor
+            char c = word
 
         }
     }
