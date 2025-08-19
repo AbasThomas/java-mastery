@@ -519,13 +519,15 @@ static int plusMethod(int x, int y) {
 //            }
 //        }
 //    }
-    public static String vowelCons(String word){
-        int vowelCount = 0;
-        int consonantCount = 0;
+//    public static String vowelCons(String word){
+//        int vowelCount = 0;
+//        int consonantCount = 0;
+//
+//        for (int i = 0; i < word.length(); i++) {
+//            char c =
+//
+//        }
+//    }
 
-        for (int i = 0; i < word.length(); i++) {
-            char c = word
 
-        }
-    }
 }
