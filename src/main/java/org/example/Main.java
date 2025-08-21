@@ -441,69 +441,75 @@ static int plusMethod(int x, int y) {
 //        //
 //    }
 
-    public static void main(String[] args) {
-//        String school_name = "Aptech Portharcourt";
-//        String str = new String("this is lovely");
-//        System.out.println(str);
-//        System.out.println(school_name);
-//        System.out.println(school_name == str); //returns false
-//        System.out.println(school_name.length());
-//        System.out.println(school_name.charAt(0));
-//        System.out.println(school_name.charAt(school_name.length()-1));
-//        String strCase = school_name.toUpperCase(); //to uppercase
-//        System.out.println(strCase);
-//          char c = school_name.charAt(2);
-//          System.out.println(c);
-
-//          int t = school_name.indexOf('t');0000......0.0.
-//          System.out.println(t);
-//          System.out.println(greet("Desi".concat("uche\nMike \t\t ade")));
-//        System.out.println("i cannot\"s do with you");
-//        System.out.println(firstLetter("chris"));
-
-       String[] allStudentName= getAllStudents("michael,Steph,Fakuade");
-       for (String all : allStudentName){
-           System.out.println(all);
-       }
-
-       //type casting
-        int price = 123456;
-        String s = String.valueOf(price);
-        System.out.println(s);
-        int i = Integer.parseInt(s);
-
-        StringBuilder sb = new StringBuilder("love is wicked");
-        sb.append("yoriyori");
-        System.out.println(sb);
-
-        System.out.println(reverseWord("good is God"));
-
-    }
-    public static String greet(String name){
-        return "Hello" + name.toUpperCase() + "!" ;
-    }
-    public static String firstLetter(String name){
-        String substring = name.substring(0,1).toUpperCase()+name.substring(1);
-        return substring;
-    }
-    public static String[] getAllStudents(String names){
-        String[] users= names.split(",");
-        return users;
-    }
+//    public static void main(String[] args) {
+////        String school_name = "Aptech Portharcourt";
+////        String str = new String("this is lovely");
+////        System.out.println(str);
+////        System.out.println(school_name);
+////        System.out.println(school_name == str); //returns false
+////        System.out.println(school_name.length());
+////        System.out.println(school_name.charAt(0));
+////        System.out.println(school_name.charAt(school_name.length()-1));
+////        String strCase = school_name.toUpperCase(); //to uppercase
+////        System.out.println(strCase);
+////          char c = school_name.charAt(2);
+////          System.out.println(c);
+//
+////          int t = school_name.indexOf('t');0000......0.0.
+////          System.out.println(t);
+////          System.out.println(greet("Desi".concat("uche\nMike \t\t ade")));
+////        System.out.println("i cannot\"s do with you");
+////        System.out.println(firstLetter("chris"));
+////
+////       String[] allStudentName= getAllStudents("michael,Steph,Fakuade");
+////       for (String all : allStudentName){
+////           System.out.println(all);
+////       }
+//
+//       //type casting
+////        int price = 123456;
+////        String s = String.valueOf(price);
+////        System.out.println(s);
+////        int i = Integer.parseInt(s);
+////
+////        StringBuilder sb = new StringBuilder("love is wicked");
+//    //        sb.append("yoriyori");
+////        System.out.println(sb);
+//
+////        System.out.println(reverseWord("good is God"));
+//`             //Method Scope
+//        // Code here CANNOT use x
+//
+//        int x = 100;
+//
+//        // Code here can use x
+//        System.out.println(x);
+//    }
+//    public static String greet(String name){
+//        return "Hello" + name.toUpperCase() + "!" ;
+//    }
+//    public static String firstLetter(String name){
+//        String substring = name.substring(0,1).toUpperCase()+name.substring(1);
+//        return substring;
+//    }
+//    public static String[] getAllStudents(String names){
+//        String[] users= names.split(",");
+//        return users;
+//    }
 
 //    reverse words in a sentence
 
-    public static String reverseWord(String words){
-        String[] s = words.split((" "));
-        StringBuilder sb= new StringBuilder();
-
-        for (int i = s.length-1; i <  0; i--) {
-            sb.append(s[i]).append(" ");
-        }
-        return  sb.toString().trim();
-
-    }
-
+//    public static String reverseWord(String words){
+//        String[] s = words.split((" "));
+//        StringBuilder sb= new StringBuilder();
+//
+//        for (int i = s.length-1; i <  0; i--) {
+//            sb.append(s[i]).append(" ");
+//        }
+//        return  sb.toString().trim();
+//
+//    }
+//
 
 //    public static int uniqueCharacters (String word){
 //        //    return the length of the longest substring with all unique characters
@@ -528,6 +534,7 @@ static int plusMethod(int x, int y) {
 //
 //        }
 //    }
+
 
 
 }
