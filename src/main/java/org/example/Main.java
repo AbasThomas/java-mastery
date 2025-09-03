@@ -535,6 +535,46 @@ static int plusMethod(int x, int y) {
 //        }
 //    }
 
+    // polymorphism
+
+//    polymorphism is one of the characteristics of object oriented programming language where an object takes may forms
+
+    //types of polymorphism
+
+    // 1 static or compiled time polymorphism or method overloading
+    // 2 Dynamic or runtime or method overriding
+//    public static void main(String[] args) {
+//    Polydemo poly = new Polydemo();
+////    System.out.println(poly.addition(2,1));
+////    System.out.println(poly.addition(3, 6.8));
+////    System.out.println(poly.addition(2,6,8,10));
+//     Animal animal = new Animal();
+////     Cat cat = new Cat();
+////     cat.sound();
+////     animal.sound();
+//     Product product = new Product();
+////      HandCream handCream = new HandCream();
+////      HandCream.price();
+////      Product.price();
+//     HealthCare doctor   = new Doctor("michael", "001");
+//
+//}
+
+//abstraction is one of the characteristics of and object oriented programming language that allows hiding of implementation details and esxposing only the essential features of an object or system
+// in java abastraction can be acheived in two main ways
+
+// 1 pure abstraction / interface
+// 2 partial abstraction
+//public static void main(String[] args) {
+//    Student s = new Student();
+//    s.speak();  // from Person
+//    s.study();  // from Student
+//}
 
 
+    public static void main(String[] args) {
+        Library lib = new Library();
+        Teacher t = new Teacher(lib);
+        t.teach();
+    }
 }
